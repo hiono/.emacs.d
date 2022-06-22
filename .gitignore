@@ -1,6 +1,9 @@
+*~
+.last-package-update-day
 ARCHIVE/
 auto-save-list/
+elpa/
 straight/
-transient/
 tramp
-*~
+transient/
+request/
