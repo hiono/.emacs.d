@@ -1,5 +1,7 @@
 *~
 .last-package-update-day
+.elisp-autofmt
+network-security.data
 ARCHIVE/
 auto-save-list/
 elpa/
@@ -7,3 +9,4 @@ straight/
 tramp
 transient/
 request/
+server/
