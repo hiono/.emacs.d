@@ -6,13 +6,15 @@
   (use-package web-mode
     :straight t
     :config (setq web-mode-markup-indent-offset 2))
-  (use-package js-mode
+  (use-package js2-mode
     :straight t
     :hook
-    (js-mode-hook .
-          (lambda ()
-            (make-local-variable 'js-indent-level)
-            (setq js-indent-level 2)))
+    (js2-mode-hook
+      .
+      (lambda ()
+        (setq my-js-mode-indent-num 2)
+        (setq js2-basic-offset my-js-mode-indent-num)
+        (setq js-switch-indent-offset my-js-mode-indent-num))))
   (use-package scss-mode
     :straight t)
   :config
