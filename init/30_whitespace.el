@@ -4,7 +4,7 @@
   :init
   :custom
   (
-   (whitespace-style
+    (whitespace-style
       '
       (face ; faceで可視化
         trailing ; 行末
@@ -26,26 +26,24 @@
     ;; スペースは全角のみを可視化
     (whitespace-space-regexp "\\(\u3000+\\)")
     ;; 保存前に自動でクリーンアップ
-    (whitespace-action '(auto-cleanup))
-  (global-whitespace-mode 1))
+    (whitespace-action '(auto-cleanup)) (global-whitespace-mode 1))
   :custom-face
   (whitespace-trailing
     (
-      (nil (
-        :background "#232323"
-        :foreground "DeepPink"
-        :underline t))))
+      (nil
+        (:background "#232323" :foreground "DeepPink" :underline t))))
   (whitespace-tab
     (
-      (nil (
-        :background "#232323"
-        :foreground "LightSkyBlue"
-        :underline t))))
+      (nil
+        (:background
+          "#232323"
+          :foreground "LightSkyBlue"
+          :underline t))))
   (whitespace-space
     (
-      (nil (
-        :background "#232323"
-        :foreground "GreenYellow"
-        :weight bold))))
-  (whitespace-empty ((nil :background "#232323")))
-  )
+      (nil
+        (:background
+          "#232323"
+          :foreground "GreenYellow"
+          :weight bold))))
+  (whitespace-empty ((nil :background "#232323"))))
