@@ -1,4 +1,7 @@
 (use-package elisp-autofmt
+  :init
+  (use-package compat
+    :straight t)
   :commands (elisp-autofmt-mode)
   :hook (emacs-lisp-mode . elisp-autofmt-mode)
   :straight
