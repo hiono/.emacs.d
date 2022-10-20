@@ -14,6 +14,4 @@
         (define-key outline-minor-mode-map [C-c TAB] 'outline-cycle)))
     (markdown-mode-hook . auto-fill-mode)
     (markdown-mode-hook . valign-mode))
-  :mode
-  (("\\.markdown$" . markdown-mode)
-    ("\\.md$" . markdown-mode)))
+  :mode (("\\.markdown$" . markdown-mode) ("\\.md$" . markdown-mode)))
