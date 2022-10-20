@@ -2,10 +2,9 @@
   :init
   (use-package compat
     :straight t)
-  :commands (elisp-autofmt-mode)
+  ;; :commands (elisp-autofmt-mode)
   :hook (emacs-lisp-mode . elisp-autofmt-mode)
-  :straight
-  (elisp-autofmt
+  :straight  (elisp-autofmt
     :files (:defaults "elisp-autofmt")
     :host nil
     :type git
