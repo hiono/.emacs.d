@@ -1,5 +1,6 @@
 (use-package company
   :init (setq company-selection-wrap-around t)
+  :diminish
   :bind
   (:map
     company-active-map
@@ -8,4 +9,4 @@
     ("C-n" . company-select-next)
     ("C-p" . company-select-previous)
     ("C-h" . nil))
-  :config (global-company-mode))
+  :config (global-company-mode 1))

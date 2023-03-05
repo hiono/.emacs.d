@@ -13,3 +13,4 @@ server/
 eln-cache/
 kkcrc
 projects
+.lsp-session-*
