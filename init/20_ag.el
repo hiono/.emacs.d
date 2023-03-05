@@ -1,5 +1,6 @@
 ;; ag
-(when (executable-find "ag")
+(when-system-type-match
+  '(not windows-nt)
   (use-package ag
     :straight t
     :init
