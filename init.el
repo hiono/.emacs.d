@@ -26,6 +26,8 @@
 
 ;; use-package をインストールする
 (straight-use-package 'use-package)
+;; diminish をインストールする
+(straight-use-package 'diminish)
 
 ;; オプションなしで自動的に use-package を straight.el にフォールバックする
 ;; 本来は (use-package hoge :straight t) のように書く必要がある
@@ -52,7 +54,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(warning-suppress-types '((comp))))
+)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
