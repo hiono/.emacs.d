@@ -1,2 +1,1 @@
-(use-package system-specific-settings
-  :straight t)
+(use-package system-specific-settings)

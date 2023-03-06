@@ -1,2 +1,1 @@
-(use-package earthfile-mode
-  :ensure t)
+(use-package earthfile-mode)

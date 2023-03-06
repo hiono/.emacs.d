@@ -1,3 +1,1 @@
-;; ein
-(use-package ein
-  :straight t)
+(use-package ein)

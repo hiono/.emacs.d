@@ -1,4 +1,2 @@
 (use-package editorconfig
-  :straight t
-  :diminish editorconfig-mode
-  :init (editorconfig-mode 1))
+  :config (editorconfig-mode 1))
