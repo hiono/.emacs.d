@@ -4,6 +4,11 @@
   (require 'lsp-marksman)
   :ensure-system-package (marksman . "sudo snap install --edge marksman"))
 
+
+(use-package markdown-preview-mode
+  :after markdown-mode)
+
+
 ;; (use-package
 ;;   markdown-mode
 ;;   :disabled
