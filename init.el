@@ -29,6 +29,13 @@
 ;; diminish をインストールする
 (straight-use-package 'diminish)
 
+;; NativeCompの設定
+(with-eval-after-load 'comp
+  (setq native-comp-async-jobs-number 8)
+  (setq native-comp-speed 3))
+(native-compile-async "~/.emacs.d/init.el")
+(native-compile-async "~/.emacs.d/early-init.el")
+
 ;; オプションなしで自動的に use-package を straight.el にフォールバックする
 ;; 本来は (use-package hoge :straight t) のように書く必要がある
 (setq straight-use-package-by-default t)

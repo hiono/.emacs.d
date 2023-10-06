@@ -1,5 +1,5 @@
 (use-package
-  whiqxotespace
+  whitespace
   :diminish global-whitespace-mode
   :init
   :custom

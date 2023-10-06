@@ -20,5 +20,7 @@
   (setq native-comp-async-report-warnings-errors nil
         native-comp-deferred-compilation t)
   )
+;;
+(eldoc-mode nil)
 (provide 'early-init)
 ;;; early-init.el ends here
